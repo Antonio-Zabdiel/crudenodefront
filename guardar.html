@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>         
+    <script src="./js/js.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>React App</title>
+  </head>
+  <body>
+    <div class="card-panel teal lighten-2"><h4>Guardar y actualizar panes</h4></div>
+    <div class="guard">
+        <input type="text" placeholder='name' id="nameSet" ></input>
+        <br>
+        <input type="text" placeholder='value' id="valueSet" ></input>
+        <br><br>
+        <Button onclick="set();" class="btn waves-effect waves-light">Guardar y actualizar</Button>
+    </div>
+    <br>
+    <p>En este apartado se pueden guardar elementos con el name acuando como identificador y el value como el valor de entrada</p>
+    <br>
+    <a href="index.html" class="waves-effect waves-light btn"">menu</a>
+    <a href="./consult.html" class="waves-effect waves-light btn"">consultar y eliminar</a>
+    </body>
+</html>

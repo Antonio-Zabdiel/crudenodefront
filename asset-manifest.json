@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crudenodefront/static/css/main.073c9b0a.css",
+    "main.js": "/crudenodefront/static/js/main.a16812ff.js",
+    "static/js/787.eca1ac16.chunk.js": "/crudenodefront/static/js/787.eca1ac16.chunk.js",
+    "static/media/logo.svg": "/crudenodefront/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/crudenodefront/index.html",
+    "main.073c9b0a.css.map": "/crudenodefront/static/css/main.073c9b0a.css.map",
+    "main.a16812ff.js.map": "/crudenodefront/static/js/main.a16812ff.js.map",
+    "787.eca1ac16.chunk.js.map": "/crudenodefront/static/js/787.eca1ac16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a16812ff.js"
+  ]
+}
