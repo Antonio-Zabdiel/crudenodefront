@@ -18,19 +18,21 @@
     <title>React App</title>
   </head>
   <body>
-    <div class="card-panel teal lighten-2"><h4>Consultar y eliminar panes</h4></div>
-    <div class="getdel">
-        <input type="text" placeholder='name' id="nameGet" ></input>
-        <br>
-        <br>
-        <Button onclick="get();" class="btn waves-effect waves-light">Consultar</Button>
-        <Button onclick="del();" class="btn waves-effect waves-light">Eliminar</Button>
+    <div class="container">
+      <div class="card-panel teal lighten-2"><h4>Consultar y eliminar panes</h4></div>
+      <div class="getdel">
+          <input type="text" placeholder='name' id="nameGet" ></input>
+          <br>
+          <br>
+          <Button onclick="get();" class="btn waves-effect waves-light">Consultar</Button>
+          <Button onclick="del();" class="btn waves-effect waves-light">Eliminar</Button>
+      </div>
+      <br>
+      <p>En este apartado se puede consultar y eliminar con base al name, que funciona como identificador</p>
+      <br>
+      <p id="respuesta" class="fondo"></p>
+      <a href="index.html" class="waves-effect waves-light btn">menu</a>
+      <a href="guardar.html" class="waves-effect waves-light btn">guardar y actualizar</a>
     </div>
-    <br>
-    <p>En este apartado se puede consultar y eliminar con base al name, que funciona como identificador</p>
-    <br>
-    <p id="respuesta" class="fondo"></p>
-    <a href="index.html" class="waves-effect waves-light btn">menu</a>
-    <a href="guardar.html" class="waves-effect waves-light btn">guardar y actualizar</a>
     </body>
 </html>
